@@ -1,6 +1,6 @@
 'use strict';
 
-const Node = function(va, next=null, prev=null){
+const Node = function(val, next=null, prev=null){
   this.val = val;
   this.next = next;
   this.prev = prev;
